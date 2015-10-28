@@ -21,9 +21,9 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     NSDictionary *jsonObject = @{
-                                 @"name" : @"呵呵哒" ,
-                                 @"sex" : @"男" ,
-                                 @"shit" : @"38312" ,
+                                 @"name"     : @"呵呵哒" ,
+                                 @"sex"      : @"男" ,
+                                 @"shit"     : @"38312" ,
                                  @"products" : @[@{@"productName":@"aaa"},
                                                  @{@"productName":@"bbb"},
                                                  @{@"productName":@"ccc"}
