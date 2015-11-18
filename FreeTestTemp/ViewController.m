@@ -83,6 +83,7 @@
     }
     
     // get an array in KeyPath
+    NSLog(@"All book name  : %@",[teacher1 valueForKeyPath:@"student.bookList.name"]) ;
     NSLog(@"All book name  : %@",[student1 valueForKeyPath:@"bookList.name"]) ;
     NSLog(@"All book price : %@",[student1 valueForKeyPath:@"bookList.price"]) ;
     
