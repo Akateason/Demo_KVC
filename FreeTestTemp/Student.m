@@ -7,7 +7,21 @@
 //
 
 #import "Student.h"
+#import "Book.h"
+
 
 @implementation Student
+
+- (instancetype)initWithName:(NSString *)name
+                    bookList:(NSArray *)listOfBook
+{
+    self = [super init];
+    if (self) {
+        self.name = name ;
+        self.bookList = listOfBook ;
+    }
+    
+    return self;
+}
 
 @end

@@ -7,7 +7,20 @@
 //
 
 #import "Teacher.h"
+#import "Student.h"
 
 @implementation Teacher
+- (instancetype)initWithStudent:(Student *)student
+{
+    self = [super init];
+    if (self) {
+        self.student = student ;
+    }
+    return self;
+}
 
+- (void)logAge
+{
+    NSLog(@"age : %@",age) ;
+}
 @end

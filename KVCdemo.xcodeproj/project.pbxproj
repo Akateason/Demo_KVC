@@ -112,7 +112,7 @@
 		D78185941BCB551100102759 = {
 			isa = PBXGroup;
 			children = (
-				D781859F1BCB551100102759 /* FreeTestTemp */,
+				D781859F1BCB551100102759 /* KVCdemo */,
 				D78185B91BCB551200102759 /* FreeTestTempTests */,
 				D78185C41BCB551200102759 /* FreeTestTempUITests */,
 				D781859E1BCB551100102759 /* Products */,
@@ -129,7 +129,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D781859F1BCB551100102759 /* FreeTestTemp */ = {
+		D781859F1BCB551100102759 /* KVCdemo */ = {
 			isa = PBXGroup;
 			children = (
 				D78185A31BCB551100102759 /* AppDelegate.h */,
@@ -146,6 +146,7 @@
 				D78185B11BCB551200102759 /* Info.plist */,
 				D78185A01BCB551100102759 /* Supporting Files */,
 			);
+			name = KVCdemo;
 			path = FreeTestTemp;
 			sourceTree = "<group>";
 		};
