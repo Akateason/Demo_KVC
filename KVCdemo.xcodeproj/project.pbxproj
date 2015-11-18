@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D757CD871BFC3A6D00335795 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = D757CD861BFC3A6D00335795 /* Teacher.m */; };
+		D757CD8A1BFC3A8800335795 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = D757CD891BFC3A8800335795 /* Student.m */; };
+		D757CD8D1BFC3A9900335795 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = D757CD8C1BFC3A9900335795 /* Book.m */; };
 		D78185A21BCB551100102759 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D78185A11BCB551100102759 /* main.m */; };
 		D78185A51BCB551200102759 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D78185A41BCB551200102759 /* AppDelegate.m */; };
 		D78185A81BCB551200102759 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78185A71BCB551200102759 /* ViewController.m */; };
@@ -15,9 +18,9 @@
 		D78185B01BCB551200102759 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D78185AE1BCB551200102759 /* LaunchScreen.storyboard */; };
 		D78185BB1BCB551200102759 /* FreeTestTempTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D78185BA1BCB551200102759 /* FreeTestTempTests.m */; };
 		D78185C61BCB551200102759 /* FreeTestTempUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D78185C51BCB551200102759 /* FreeTestTempUITests.m */; };
-		D78185D51BCB557100102759 /* ObjWillParsel.m in Sources */ = {isa = PBXBuildFile; fileRef = D78185D41BCB557100102759 /* ObjWillParsel.m */; settings = {ASSET_TAGS = (); }; };
-		D78185D81BCB582000102759 /* NSObject+XTFetchProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D78185D71BCB582000102759 /* NSObject+XTFetchProperty.m */; settings = {ASSET_TAGS = (); }; };
-		D78185DB1BCB676700102759 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = D78185DA1BCB676700102759 /* Product.m */; settings = {ASSET_TAGS = (); }; };
+		D78185D51BCB557100102759 /* ObjWillParsel.m in Sources */ = {isa = PBXBuildFile; fileRef = D78185D41BCB557100102759 /* ObjWillParsel.m */; };
+		D78185D81BCB582000102759 /* NSObject+XTFetchProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D78185D71BCB582000102759 /* NSObject+XTFetchProperty.m */; };
+		D78185DB1BCB676700102759 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = D78185DA1BCB676700102759 /* Product.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D757CD851BFC3A6D00335795 /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		D757CD861BFC3A6D00335795 /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		D757CD881BFC3A8800335795 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		D757CD891BFC3A8800335795 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		D757CD8B1BFC3A9900335795 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		D757CD8C1BFC3A9900335795 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 		D781859D1BCB551100102759 /* KVCdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVCdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D78185A11BCB551100102759 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D78185A31BCB551100102759 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -87,6 +96,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D757CD841BFC3A2E00335795 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				D757CD851BFC3A6D00335795 /* Teacher.h */,
+				D757CD861BFC3A6D00335795 /* Teacher.m */,
+				D757CD881BFC3A8800335795 /* Student.h */,
+				D757CD891BFC3A8800335795 /* Student.m */,
+				D757CD8B1BFC3A9900335795 /* Book.h */,
+				D757CD8C1BFC3A9900335795 /* Book.m */,
+			);
+			name = People;
+			sourceTree = "<group>";
+		};
 		D78185941BCB551100102759 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +138,7 @@
 				D78185A71BCB551200102759 /* ViewController.m */,
 				D78185D61BCB582000102759 /* NSObject+XTFetchProperty.h */,
 				D78185D71BCB582000102759 /* NSObject+XTFetchProperty.m */,
+				D757CD841BFC3A2E00335795 /* People */,
 				D78185DC1BCCDD5A00102759 /* objects */,
 				D78185A91BCB551200102759 /* Main.storyboard */,
 				D78185AC1BCB551200102759 /* Assets.xcassets */,
@@ -294,7 +317,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D78185D51BCB557100102759 /* ObjWillParsel.m in Sources */,
+				D757CD8D1BFC3A9900335795 /* Book.m in Sources */,
+				D757CD871BFC3A6D00335795 /* Teacher.m in Sources */,
 				D78185D81BCB582000102759 /* NSObject+XTFetchProperty.m in Sources */,
+				D757CD8A1BFC3A8800335795 /* Student.m in Sources */,
 				D78185A81BCB551200102759 /* ViewController.m in Sources */,
 				D78185DB1BCB676700102759 /* Product.m in Sources */,
 				D78185A51BCB551200102759 /* AppDelegate.m in Sources */,

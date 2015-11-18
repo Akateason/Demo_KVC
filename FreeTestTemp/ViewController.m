@@ -15,11 +15,10 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad
+
+- (void)demo1_ObjParser
 {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    
+    // get json string from server
     NSDictionary *jsonObject = @{
                                  @"name"     : @"呵呵哒" ,
                                  @"sex"      : @"男" ,
@@ -29,7 +28,7 @@
                                                  @{@"productName":@"ccc"}
                                                  ]
                                  } ;
-    
+    // parse it
     ObjWillParsel *obj = [[ObjWillParsel alloc] initWithJsonObject:jsonObject] ;
     NSLog(@"obj : %@",obj.description) ;
     NSDictionary *showDic = [obj getAllPropertiesAndVaules] ;
@@ -38,6 +37,23 @@
     [obj getAllMethods] ;
     
     // *** Terminating app due to uncaught exception 'NSUnknownKeyException', reason: '[<ObjWillParsel 0x7fe7f0511340> setValue:forUndefinedKey:]: this class is not key value coding-compliant for the key sex.'
+}
+
+- (void)abc {
+    
+}
+
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    [self demo1_ObjParser] ;
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
